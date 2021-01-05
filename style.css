@@ -367,7 +367,7 @@ button {
 }
 
 .icon-md {
-    font-size: 30px!important;
+    font-size: 20px!important;
 }
 
 .icon-lg {
@@ -595,6 +595,8 @@ p {
     max-width: 600px;
     margin: auto auto auto auto;
     margin-top: 30px;
+    color: black;
+    font-weight: bold;
 }
 
 h2 {
