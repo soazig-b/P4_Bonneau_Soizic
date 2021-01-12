@@ -339,9 +339,17 @@ nav .caret {
 .btn {
     margin: 0 5px 5px 0;
 }
+.navbar-toggle {
+    margin: 10px 10px 0 0;
+    border: 0px;
+}
 
 .btn.pull-right {
     margin: 0 0 5px 5px;
+}
+.navbar-toggle .icon-bar {
+    background-color: rgba(0, 0, 0, .5);
+    width: 26px;
 }
 
 .btn-d,
@@ -367,7 +375,7 @@ button {
 }
 
 .icon-md {
-    font-size: 20px!important;
+    font-size: 30px!important;
 }
 
 .icon-lg {
@@ -595,8 +603,6 @@ p {
     max-width: 600px;
     margin: auto auto auto auto;
     margin-top: 30px;
-    color: black;
-    font-weight: bold;
 }
 
 h2 {
@@ -717,6 +723,9 @@ h1 {
 .bg-banniere{
     background-image: url("img/image-de-presentation3.jpg");
 }
+.bg-presentation {
+    background-image: url("img/image-de-presentation3.jpg");
+}
 
 @media (max-width: 1024px) {
     .bloc {
@@ -766,6 +775,10 @@ h1 {
         overflow-x: hidden;
         position: relative;
     }
+    .row-end {
+        margin-left: 5px;
+        margin-right: 5px;
+    }
     h1,
     h2,
     h3,
@@ -783,8 +796,8 @@ h1 {
         float: none!important;
     }
     .navbar.row {
-        margin-left: 0;
-        margin-right: 0;
+        margin-left: auto;
+        margin-right: auto;
     }
     .site-navigation {
         position: inherit;
@@ -837,6 +850,10 @@ h1 {
     .nav-invert .navbar-header {
         float: none;
         width: 100%;
+        
+    }
+    .navbar-header {
+        display: inline-block;
     }
     .nav-invert {
         float: left;
